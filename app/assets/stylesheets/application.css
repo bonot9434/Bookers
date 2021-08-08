@@ -15,11 +15,11 @@
  */
 
 
-head{
+head {
   display:none;
 }
 
-body{
+body {
   background-color:#fff;
   color:#333;
   font-family:verdana,arial,helvetica,sans-serif;
@@ -28,18 +28,39 @@ body{
   margin:33px;
 }
 
-p{
+p {
   margin:33px;
 }
 
-strong{
+strong {
   font-weight:bold;
 }
 
-label{
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a {
+  color:#000;
+}
+
+p, ol, ul, td {
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+label {
   display: block;
 }
 
-.field,.actions{
+div.field,div.actions {
   margin-bottom: 10px;  
 }
